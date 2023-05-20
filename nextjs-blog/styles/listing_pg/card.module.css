@@ -1,0 +1,114 @@
+.card_container {
+    grid-column: 2/-1 ;
+    grid-row: 2/-1; 
+    display : grid ;
+    width : 835px ; 
+    height : 276px ;  
+    grid-template-columns: 1fr 1.93fr;
+    grid-template-rows: 1fr 2fr ;
+    margin : 20px ;
+    margin-left : 0px ;  
+    margin-right : 0px ; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    gap: 10px;
+    padding : 8px ;
+    font-family: 'Outfit', sans-serif;
+    background-color:  #F8F8F8;  
+    transition: transform 0.4s ease;
+    border-radius: 1em;
+  }
+
+  .card_container:hover{
+    transform: scale(1.03);
+    
+  }
+  
+  .card_img1{
+    grid-column: 1/2 ;
+    grid-row: 1/-1; 
+    /* max-width: 100%; */
+    /* max-height: 100%; */
+    height: 260px;
+    width: 285px;
+    border-radius: 1em;;
+    
+    
+  }
+  
+  
+  
+  
+  .details1{
+    grid-row : 1/2 ; 
+    grid-column: 2/-1;
+    display : flex ; 
+    flex-direction: row ;
+    align-content: center; 
+  }
+  
+  .card_img2{
+    height: 64px;
+    width: 64px;
+    border-radius: 50% ;
+    margin-right : 5px ;
+  }
+  
+  
+  .contractor_div{
+    width : 100%;
+    /* border-color : black ; 
+    border-width: 2px;
+    border-style: solid ; */
+    display : flex ; 
+    flex-direction: row ;
+    align-content: center; 
+    margin-right : auto ;
+    padding: 10px ; 
+    justify-content: space-between;
+    /* background-color: #6C63FF; */
+  }
+  
+  .details2{
+    grid-row:2/-1 ; 
+    grid-column: 2/-1;
+  }
+  
+  .btn{
+    /* height: 33px;
+    width: 87px; */
+    background-color: #000000; /* Green */
+    border-radius : 10px;
+   
+    /* padding: 15px 32px; */
+    
+    display: block;
+    transition: transform 0.2s ease;
+    margin: auto 10px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 			        rgba(0,0,0,0.19);
+  }  
+  .btn:hover{
+    transform: scale(1.1);
+    /* background-color: white;
+    color: black; */
+  }
+  .btntext:hover{
+    /* color:black; */
+  }
+  .btntext{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin : auto ; 
+  }
+  
+  .bookmarkimg{
+    cursor: pointer;
+    height : 45px ; 
+    transition: transform 0.3s ease;
+    width :  38px ; 
+  }
+  .bookmarkimg:hover{
+    transform: scale(1.1);
+  }

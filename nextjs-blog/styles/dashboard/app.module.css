@@ -1,0 +1,46 @@
+.header{
+    width : 100% ; 
+    height : 300px ; 
+}
+
+.dashboard_img{
+    height : 100% ; 
+    width : 100% ;
+}
+
+.space{
+    grid-column: 1/2;
+    margin : 10px  ;
+}
+.card{
+    background-color: #e0ddda;
+    font-size: 1.2em;
+}
+
+.label {
+    /* background-color: white; */
+    margin-left : 0.4em ; 
+    font-size: 0.8em;
+}
+
+.orderdetails{
+    margin-top : 10px ; 
+    grid-column: 2/-1; 
+}
+
+.detailscontainer{
+    display: grid ; 
+    grid-template-columns: 1fr 2fr ; 
+    column-gap: 30px;
+
+    font-family: 'Inria Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Outfit', sans-serif;
+}
+.ordertext{
+    
+    font-weight: 700;
+    
+    margin-bottom: 10px;
+}
