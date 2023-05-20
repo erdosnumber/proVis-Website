@@ -1,6 +1,6 @@
 # Introduction
 
-This is a website created as part of Sem 4 course COP290 (Design Practices). The idea of the website is to act as a middle-man between contractors and customers by showing customers the contractors and their projects as per their requirements and enabling them to contact them via email.
+This is a website created as part of Semester 4 course COP290 (Design Practices). The idea of the website is to act as a middle-man between contractors and customers by showing customers the contractors and their projects as per their requirements and enabling them to contact them via email.
 
 # Swagger generated server
 
