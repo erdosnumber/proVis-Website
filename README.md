@@ -52,7 +52,7 @@ docker build -t swagger_server .
 docker run -p 8080:8080 swagger_server
 ```
 
-## Frontend
+# Frontend
 
 To run the frontend, execute the following from nextjs-blog:
 ```
