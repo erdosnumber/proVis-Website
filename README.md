@@ -36,6 +36,12 @@ sudo pip install tox
 tox
 ```
 
+To run the frontend, execute the following from nextjs-blog:
+```
+npm -i force
+npm run dev
+```
+
 ## Running with Docker
 
 To run the server on a Docker container, please execute the following from the root directory:
