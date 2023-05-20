@@ -40,12 +40,6 @@ sudo pip install tox
 tox
 ```
 
-To run the frontend, execute the following from nextjs-blog:
-```
-npm -i force
-npm run dev
-```
-
 ## Running with Docker
 
 To run the server on a Docker container, please execute the following from the root directory:
@@ -56,4 +50,12 @@ docker build -t swagger_server .
 
 # starting up a container
 docker run -p 8080:8080 swagger_server
+```
+
+## Frontend
+
+To run the frontend, execute the following from nextjs-blog:
+```
+npm -i force
+npm run dev
 ```
